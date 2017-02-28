@@ -1,0 +1,53 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+  background-attachment: scroll;
+	background-size: cover;
+	background-image: url("http://powellong.com/data/wallpapers/110/WDF_1533243.jpg");
+}
+
+table {
+	padding: 5px;
+	text-align: center;
+  background-color: olive;
+  border-style: groove;
+	border-width: thick;
+}
+
+a#color {
+	color: red;
+	text-decoration: underline;
+}
+a.font {
+	color: black;
+	font-weight: bold;
+}
+
+a:hover{
+  background-color: lightsteelblue;
+}
+
+.border {
+	padding: 10px;
+	display: table;
+	width: auto;
+	text-align: center;
+	background-color: bisque;
+	border-style: double;
+	border-width: thick;
+}
+
+ul.border {
+	padding: 20px;
+	display: table;
+	width: auto;
+	text-align: left;
+	background-color: bisque;
+	border-style: double;
+	border-width: thick;
+}
+
+p#general {
+	font: 20px;
+	font-family: Helvetica, sans-serif;
+}
